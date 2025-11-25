@@ -9,10 +9,10 @@ export default function Navbar() {
         <h1 className='logo'>Nestify</h1>
 
         <ul className='nav-links'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Categories</li>
-          <li>Contact</li>
+            <Link className='navelement' to='/'>Home</Link>
+            <Link className='navelement' to='/about'>About</Link>
+            <Link className='navelement' to='/contact'>Categories</Link>
+            <Link className='navelement' to='/skills'>Contact</Link>
         </ul>
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
