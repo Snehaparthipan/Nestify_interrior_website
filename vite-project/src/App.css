@@ -1,4 +1,4 @@
-/* NAVBAR STYLING */
+/* navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@
   font-weight: bold;
 }
 
-/* Desktop Menu */
+
 .nav-links {
   display: flex;
   gap: 25px;
@@ -21,21 +21,19 @@
 }
 
 .nav-links li {
-  cursor: pointer;
   font-size: 18px;
 }
 
-/* Hamburger Button */
+
 .menu-btn {
   background: none;
   border: none;
   color: white;
   font-size: 28px;
-  cursor: pointer;
   display: none;
 }
 
-/* Dropdown UL */
+
 .dropdown {
   background: #333;
   width: 100%;
@@ -49,72 +47,6 @@
 .dropdown li {
   color: white;
   font-size: 18px;
-  cursor: pointer;
-  padding: 5px;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-
-  .menu-btn {
-    display: block;
-  }
-}
-/* NAVBAR STYLING */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  background: #222;
-  color: white;
-}
-
-.logo {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-/* Desktop Menu */
-.nav-links {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-}
-
-.nav-links li {
-  cursor: pointer;
-  font-size: 18px;
-}
-
-/* Hamburger Button */
-.menu-btn {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-}
-
-/* Dropdown UL */
-.dropdown {
-  background: #333;
-  width: 100%;
-  list-style: none;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.dropdown li {
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
   padding: 5px;
 }
 
