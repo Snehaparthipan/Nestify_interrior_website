@@ -10,6 +10,7 @@ export default function Navbar() {
 
         <ul className='nav-links'>
             <li>Home</li>
+            
             <li>About</li>
             <li>Categorris</li>
             <li>Contact</li>
@@ -18,7 +19,7 @@ export default function Navbar() {
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
       </nav>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile Dropdown */} 
       {user && (
         <ul className='dropdown'>
           <li>Home</li>
