@@ -14,6 +14,7 @@ export default function Navbar() {
             <li>About</li>
             <li>Categorris</li>
             <li>Contact</li>
+            <li>add</li>
         </ul>
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
@@ -25,7 +26,7 @@ export default function Navbar() {
           <Link className='li1' to='/'>Home</Link>
           <Link className='li1' to='/about'>About</Link>
           <Link className='li1' to='/categories'>Categories</Link>
-          <Link className='li1' to='/contact'>Contacts</Link>
+          <Link className='li1' to='/contact'>Contact</Link>
         </ul>
       )}
     </div>
