@@ -15,6 +15,7 @@ export default function Navbar() {
             <Link className='li' to='/about'>About</Link>
             <Link className='li' to='/categories'>Categories<button className='drop-btn' onClick={() => setDrop(!drop)}>▼</button></Link>
             <Link className='li' to='/contact'>Contact</Link>
+            <i className="fa-solid fa-cart-shopping"></i>
         </ul>
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
