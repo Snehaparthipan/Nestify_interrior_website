@@ -52,6 +52,25 @@
   padding: 5px;
   text-decoration: none;
 }
+.drop-btn{
+  border: none;
+  background-color:darkorange;
+  margin-left: 5px;
+}
+.items{
+  display: flex;
+  text-decoration: none;
+  width: 200px;
+  height: auto;
+  background-color: grey;
+  padding: 10px;
+  
+  
+}
+.dropdownmenu1{
+  margin: 20px;
+  margin-left: 1000px;
+}
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -65,4 +84,12 @@
   .body{
     overflow-x: hidden;
   }
+  .dropdownmenu{
+  margin: 20px;
+  margin-left: 100px;
 }
+.dropdownmenu1{
+  display: none;
+}
+}
+/* about */

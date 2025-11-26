@@ -1,6 +1,7 @@
-// import React from "react";
-import Navbar from "./Navbar";
-import React, { useEffect, useState } from "react";
+import React from 'react'
+import Navbar from './Navbar'
+import { useEffect, useState } from "react";
+
 
 export default function About() {
   const [loaded, setLoaded] = useState(false);
@@ -17,7 +18,9 @@ export default function About() {
         </h1>
 
         <p className="hero-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnivoluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsam quovoluptas.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Magnivoluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsam
+          quovoluptas.
         </p>
 
         <button className="consult-button">Request Consultation</button>
