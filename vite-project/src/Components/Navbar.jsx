@@ -11,6 +11,10 @@ export default function Navbar() {
 
         <ul className='nav-links'>
             <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/categories'>Categories</Link>
+            <Link to='/contact'>Contact</Link>
+            
             {/* <li>Home</li>
             <li>About</li>
             <li>Categorris</li>
