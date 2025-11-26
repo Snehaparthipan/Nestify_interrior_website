@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './Navbar'
 import { useEffect, useState } from "react";
 
-export default function HeroSection() {
+
+export default function About() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -17,18 +18,11 @@ export default function HeroSection() {
         </h1>
 
         <p className="hero-text">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni voluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsam quo voluptas.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores temporibus voluptatum, esse aspernatur perspiciatis, quibusdam, unde dolorum provident voluptatem minus. Aliquam, reprehenderit et consequuntur deserunt culpa repudiandae soluta quaerat.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.Magnivoluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsamquovoluptas.
         </p>
 
         <button className="consult-button">Request Consultation</button>
-      </div>
-
-      <div className="hero-right">
-        <img
-          src="/interior.jpg" 
-          alt="Interior Design"
-          className="hero-image"
-        />
       </div>
     </div>
   );
