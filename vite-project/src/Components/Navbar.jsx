@@ -9,10 +9,6 @@ export default function Navbar() {
         <h1 className='logo'>Nestify</h1>
 
         <ul className='nav-links'>
-            {/* <Link className='li' to='/'>Home</Link>
-            <Link className='li' to='/about'>About</Link>
-            <Link className='li' to='/contact'>Categories</Link>
-            <Link className='li' to='/skills'>Contact</Link> */}
             <li>Home</li>
             <li>About</li>
             <li>Categorris</li>

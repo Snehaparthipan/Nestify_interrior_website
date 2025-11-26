@@ -13,15 +13,6 @@ import Contact from './Components/Contact'
 function App() {
   return (
     <>
-     {/* <BrowserRouter>
-    <Nav/>
-      <Routes>
-        <Route path='/' element={<Home name="Sneha" from="Mannargudi"/>}/>
-        <Route path='/about' element={<About degree="B.SC" special="Computer Science"/>}/>
-        <Route path='/contact' element={<Categories phoneno="9342144316"/>}/>
-        <Route path='/cirtificate' element={<Contact cirt="Full stack development"/>}/>
-      </Routes>
-    </BrowserRouter> */}
     <Home/>
       
     </>
