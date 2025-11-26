@@ -19,7 +19,14 @@ export default function Navbar() {
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
       </nav>
-
+    {drop && (
+        <ul className='dropdownmenu1'>
+          <Link className='items' to='/'>Kitchen</Link>
+          <Link className='items' to='/about'>Bedroom</Link>
+          <Link className='items' to='/categories'>Dinning Room</Link>
+          <Link className='items' to='/contact'>Living Room</Link>
+        </ul>
+      )}
      
       {user && (
         <ul className='dropdown'>

@@ -67,7 +67,7 @@
   
   
 }
-.dropdownmenu{
+.dropdownmenu1{
   margin: 20px;
   margin-left: 1000px;
 }
@@ -87,5 +87,8 @@
   .dropdownmenu{
   margin: 20px;
   margin-left: 100px;
+}
+.dropdownmenu1{
+  display: none;
 }
 }
