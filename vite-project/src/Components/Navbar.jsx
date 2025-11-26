@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [user, setUser] = useState(false)
@@ -9,10 +10,11 @@ export default function Navbar() {
         <h1 className='logo'>Nestify</h1>
 
         <ul className='nav-links'>
-            <li>Home</li>
+            <Link to='/'>Home</Link>
+            {/* <li>Home</li>
             <li>About</li>
             <li>Categorris</li>
-            <li>Contact</li>
+            <li>Contact</li> */}
         </ul>
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>

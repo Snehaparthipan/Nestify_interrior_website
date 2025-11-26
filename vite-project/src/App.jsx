@@ -13,6 +13,12 @@ import Contact from './Components/Contact'
 function App() {
   return (
     <>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+    </Routes>
+    </BrowserRouter>
     <Home/>
       
     </>
