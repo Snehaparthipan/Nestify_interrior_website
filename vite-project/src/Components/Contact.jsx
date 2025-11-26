@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 export default function Contact() {
   return (
-    <div>
+    <div className='body'>
      
     </div>
   )

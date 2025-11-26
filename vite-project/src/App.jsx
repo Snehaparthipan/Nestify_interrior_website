@@ -13,7 +13,8 @@ import Contact from './Components/Contact'
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <div className='body'>
+      <BrowserRouter>
     <Navbar/>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -23,6 +24,8 @@ function App() {
     </Routes>
     </BrowserRouter>
     <Home/>
+    </div>
+    
       
     </>
   )

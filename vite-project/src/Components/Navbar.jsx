@@ -5,7 +5,7 @@ export default function Navbar() {
   const [user, setUser] = useState(false)
 
   return (
-    <div>
+    <div className='body'>
       <nav className='navbar'>
         <h1 className='logo'>Nestify</h1>
 

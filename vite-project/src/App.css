@@ -38,9 +38,9 @@
 
 .dropdown {
   background: #333;
-  width: 100%;
+  width: 92%;
   list-style: none;
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -61,5 +61,8 @@
 
   .menu-btn {
     display: block;
+  }
+  .body{
+    overflow-x: hidden;
   }
 }
