@@ -20,8 +20,10 @@
   list-style: none;
 }
 
-.nav-links Link{
+.li{
   font-size: 18px;
+  text-decoration: none;
+  color: white;
 }
 
 
@@ -38,16 +40,18 @@
   background: #333;
   width: 100%;
   list-style: none;
+  display: none;
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.dropdown li{
+.li1{
   color: white;
   font-size: 18px;
   padding: 5px;
+  text-decoration: none;
 }
 
 /* Responsive Styles */
