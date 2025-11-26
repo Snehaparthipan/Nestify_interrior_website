@@ -13,7 +13,7 @@ import Contact from './Components/Contact'
 function App() {
   return (
     <>
-     <BrowserRouter>
+     {/* <BrowserRouter>
     <Nav/>
       <Routes>
         <Route path='/' element={<Home name="Sneha" from="Mannargudi"/>}/>
@@ -21,7 +21,7 @@ function App() {
         <Route path='/contact' element={<Categories phoneno="9342144316"/>}/>
         <Route path='/cirtificate' element={<Contact cirt="Full stack development"/>}/>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
     <Home/>
       
     </>
