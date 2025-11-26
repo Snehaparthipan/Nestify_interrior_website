@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function HeroSection() {
   const [loaded, setLoaded] = useState(false);
