@@ -18,9 +18,8 @@ export default function About() {
         </h1>
 
         <p className="hero-text">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Magnivoluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsam
-          quovoluptas.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores temporibus voluptatum, esse aspernatur perspiciatis, quibusdam, unde dolorum provident voluptatem minus. Aliquam, reprehenderit et consequuntur deserunt culpa repudiandae soluta quaerat.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.Magnivoluptatem modi commodi quasi iure! Eveniet, sunt? Modi ipsamquovoluptas.
         </p>
 
         <button className="consult-button">Request Consultation</button>
