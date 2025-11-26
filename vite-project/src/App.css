@@ -91,5 +91,74 @@
 .dropdownmenu1{
   display: none;
 }
+
 }
 /* about */
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero-text {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #555;
+  max-width: 520px;
+  line-height: 1.6;
+}
+
+.consult-button {
+  margin-top: 30px;
+  padding: 14px 30px;
+  background-color: #58a38c;
+  border: none;
+  border-radius: 40px;
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.consult-button:hover {
+  background-color: #4b8e79;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .hero-title {
+    font-size: 42px;
+  }
+}
