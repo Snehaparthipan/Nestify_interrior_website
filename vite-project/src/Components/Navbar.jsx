@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [user, setUser] = useState(false)
@@ -10,7 +11,6 @@ export default function Navbar() {
 
         <ul className='nav-links'>
             <li>Home</li>
-            
             <li>About</li>
             <li>Categorris</li>
             <li>Contact</li>
@@ -22,10 +22,10 @@ export default function Navbar() {
       {/* Mobile Dropdown */} 
       {user && (
         <ul className='dropdown'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Feature</li>
-          <li>Contact</li>
+          <Link className='li1' to='/'>Home</Link>
+          <Link className='li1' to='/about'>About</Link>
+          <Link className='li1' to='/categories'>Categories</Link>
+          <Link className='li1' to='/contact'>Contact</Link>
         </ul>
       )}
     </div>
