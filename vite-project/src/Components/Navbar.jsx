@@ -13,7 +13,7 @@ export default function Navbar() {
             <Link className='li' to='/'>Home</Link>
             <Link className='li' to='/about'>About</Link>
             <Link className='li' to='/categories'>Categories</Link>
-            <Link className='li' to='/contact'>Contact</Link>
+            <Link className='li' to='/contact'>Contacts</Link>
         </ul>
 
         <button className='menu-btn' onClick={() => setUser(!user)}>≡</button>
