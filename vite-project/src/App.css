@@ -117,6 +117,7 @@
   flex: 1;
 }
 
+
 .hero-title {
   font-size: 64px;
   font-weight: 300;
@@ -129,6 +130,7 @@
   color: #555;
   max-width: 520px;
   line-height: 1.6;
+  padding: 10px;
 }
 
 .consult-button {
@@ -144,7 +146,7 @@
 }
 
 .consult-button:hover {
-  background-color: #4b8e79;
+  background-color: black;
 }
 
 .hero-right {
@@ -154,6 +156,7 @@
 .hero-image {
   width: 100%;
   border-radius: 10px;
+  height: 100%;
 }
 
 
